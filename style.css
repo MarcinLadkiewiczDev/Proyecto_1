@@ -59,7 +59,7 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     animation: desplazar 3s;
-    /* animation-fill-mode: forwards; */
+    
         
 }
 .preheader img {
@@ -241,7 +241,6 @@ main {
     justify-content: center;
 }
 h1 {
-    font-size: 42px;
     text-align: center;
     grid-column: 1 / 7;
     justify-content: center;
@@ -323,6 +322,8 @@ h2 {
     margin-top: 30px;
 }
 
+/* PRODUCTOS EN GENERAL */
+
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -337,6 +338,7 @@ h2 {
         grid-template-columns: repeat(4, 250px);
     }
 }
+
 .product {
     width: 100%;
     height: auto;
@@ -368,4 +370,140 @@ h2 {
     border-radius: 10px;
     box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.55);
 
+}
+
+#newin button {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: var(--secundary-color);
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+#newin button:hover {
+    background-color: var(--fifth-color);
+    color: var(--forth-color);
+}
+
+.new {
+  font-size: 14px;
+  padding: 2px;
+  background-color: aqua;
+  position: relative;
+  margin-left:10px;
+  top: 10px;
+
+}
+
+/* RECOMENDACIONES */
+
+#recomendation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* TOP VENTAS */
+
+#top-sales {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#prox {
+    border: 2px dashed red ;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* SERVICIOS */
+
+#best-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#best-services h2 {
+    font-size: 30px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.service {
+    padding: 30px;
+    align-content: center;
+    background-color: var(--third-color);
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* SOCIALS */
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+#socials h2 {
+    font-size: 30px;
+}
+
+#socials ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials ul li{
+    width: auto;
+    height: 40px;
+    background-color: #919191;
+    border-radius: 5px;
+}
+
+#socials ul li a{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#socials ul li a > img {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    filter: invert(1);
+}
+
+/* SOCIALS HOVER */
+
+.facebook:hover{
+    background-color:#3b5998 ;
 }
