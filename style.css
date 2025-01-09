@@ -223,9 +223,8 @@ nav ul li > a:hover {
 
 main {
     width: 70%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
-    position:relative;
     margin-top: 160px;
 }
 
@@ -301,6 +300,7 @@ h1 {
     width: 100%;
     background-color: var(--secundary-color);
     border: none;
+    padding: 5px;
     border-radius: 10px;
 }
 
@@ -537,13 +537,14 @@ h2 {
 
 #form {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     text-align: center;
     background-color: var(--third-color);
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 #form .discount {
@@ -578,8 +579,31 @@ form{
 }
 
 /* FAQ */
-
+#FAQ {
+    width: 100%;
+    height: 500px;
+    
+}
 #FAQ h2{
     font-size: 28px;
+    margin-bottom: 30px;
 }
 
+
+summary {
+    width: 100%;
+    background-color: var(--third-color);
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: auto;
+}
