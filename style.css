@@ -22,6 +22,10 @@ h1, h2{
     text-align: center;
 }
 
+h4{
+    font-size: 20px;
+}
+
 /* Animacion Preheader */
 
 @keyframes desplazar {
@@ -606,4 +610,44 @@ footer {
     background-color: var(--primary-color);
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 100px;
+    color: var(--third-color);
+    
 }
+
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+}
+
+footer a{
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.logo-s-footer{
+    height: 50px;
+}
+.mail-icon{
+    height: 14px;
+    filter: invert(1);
+
+}
+.social-footer img {
+    height: 25px;
+}
+
+.social-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    filter: invert(1);
+}
+
