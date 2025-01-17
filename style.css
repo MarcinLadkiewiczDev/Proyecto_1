@@ -596,7 +596,10 @@ form{
     font-size: 28px;
     margin-bottom: 30px;
 }
-
+details ol, ul, p{
+    padding-left: 25px;
+    padding-right: 10px;
+}
 
 summary {
     width: 100%;
