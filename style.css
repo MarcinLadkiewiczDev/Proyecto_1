@@ -633,7 +633,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
-    gap: 70px;
+    gap: 100px;
     color: var(--third-color);
 }
 
@@ -643,7 +643,7 @@ footer ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    align-items: baseline;
+    align-items:baseline;
     gap: 15px;
 }
 
@@ -671,9 +671,11 @@ footer p {
 .social-footer {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    width: 100%;
+    gap: 10px;
     filter: invert(1);
 }
+
 
 /* //MEDIA QUERY TABLET  */
 
