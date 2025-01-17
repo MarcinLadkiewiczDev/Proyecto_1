@@ -456,7 +456,7 @@ h2 {
     align-content: center;
     background-color: var(--third-color);
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 15px;
 }
 
@@ -627,10 +627,10 @@ footer {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
-    gap: 50px;
+    gap: 70px;
     color: var(--third-color);
 }
 
@@ -780,7 +780,7 @@ footer p {
         height: 100%;
         border-radius: 10px;
         object-fit: cover;
-        object-position: center;
+        object-position:center;
     }
     /* MAIN */
     main {
